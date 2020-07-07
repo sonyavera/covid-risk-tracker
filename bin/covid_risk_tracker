@@ -1,10 +1,4 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/tic_tac_toe'
+require_relative '../lib/covid_risk_tracker'
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-puts "Welcome to Tic Tac Toe!"
-display_board(board)
-
-play(board)
